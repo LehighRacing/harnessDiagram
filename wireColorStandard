@@ -1,0 +1,11 @@
+Yellow
+	5V
+Red
+	12V
+White
+	signal (also striped)
+	CAN high
+Blue
+	CAN low
+Black
+	Ground
