@@ -18,87 +18,87 @@ graph harness{
 		//width=2
 	]
 	"ECU" -- "MAP_MAT" [
-		xlabel="MAP_IN 18"
+		xlabel="MAP_IN 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel="1"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "CLT" [
-		xlabel="CLT_IN 18"
+		xlabel="CLT_IN 18 AWG"
 		fontcolor="Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey;0.05"
 		color="Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey;0.05"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "MAP_MAT" [
-		xlabel="MAT_IN 18"
+		xlabel="MAT_IN 18 AWG"
 		fontcolor="Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey;0.05"
 		color="Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey;0.05"
 		headlabel="2"
 		taillabel="3"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "TPS" [
-		xlabel="TPS_IN 18"
+		xlabel="TPS_IN 18 AWG"
 		fontcolor="Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey;0.05"
 		color="Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey;0.05"
 		headlabel="1"
 		taillabel="4"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "ENGINE (CPS)" [
-		xlabel="VR+ 18"
+		xlabel="VR+ 18 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
 		taillabel="5"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "ENGINE (CPS)" [
-		xlabel="VR- 18"
+		xlabel="VR- 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel="2"
 		taillabel="6"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "O2" [
-		xlabel="O2_IN 18"
+		xlabel="O2_IN 18 AWG"
 		fontcolor="Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey;0.05"
 		color="Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey;0.05"
 		headlabel="3"
 		taillabel="7"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "ENGINE" [
-		xlabel="NEUTRAL_IN 18"
+		xlabel="NEUTRAL_IN 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel="1"
 		taillabel="8"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "RELAY_STG2" [
-		xlabel="STG2_EN_OUT 18"
+		xlabel="STG2_EN_OUT 18 AWG"
 		fontcolor="Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey;0.05"
 		color="Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey;0.05"
 		headlabel="3"
 		taillabel="9"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "IGN" [
-		xlabel="IGN1_OUT 18"
+		xlabel="IGN1_OUT 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel="1"
 		taillabel="10"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "INJ" [
-		xlabel="INJ1_OUT 18"
+		xlabel="INJ1_OUT 16 AWG"
 		fontcolor="Purple"
 		color="Purple"
 		headlabel="2"
@@ -106,15 +106,15 @@ graph harness{
 		penwidth=1.0
 	]
 	"ECU" -- "O2" [
-		xlabel="VDD12V_O2 18"
+		xlabel="VDD12V_O2 18 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="4"
 		taillabel="12"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "TRANSP" [
-		xlabel="VDD12V_BRAKE_TRANSP 18"
+		xlabel="VDD12V_BRAKE_TRANSP 16 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
@@ -122,167 +122,143 @@ graph harness{
 		penwidth=1.0
 	]
 	"ECU" -- "O2" [
-		xlabel="O2_CAN_H 18"
+		xlabel="O2_CAN_H 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel="1"
 		taillabel="14"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "O2" [
-		xlabel="O2_CAN_L 18"
+		xlabel="O2_CAN_L 18 AWG"
 		fontcolor="Blue"
 		color="Blue"
 		headlabel="2"
 		taillabel="15"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "MAP_MAT" [
-		xlabel="VDD5V_MAP_MAT 18"
+		xlabel="VDD5V_MAP_MAT 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="3"
 		taillabel="16"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "TPS" [
-		xlabel="VDD5V_TPS 18"
+		xlabel="VDD5V_TPS 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="2"
 		taillabel="17"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "CLT" [
-		xlabel="SENSOR_GND 18"
+		xlabel="SENSOR_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="2"
 		taillabel="18"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "IGN" [
-		xlabel="SENSOR_GND_19 18"
+		xlabel="SENSOR_GND_19 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="2"
 		taillabel="19"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "MAP_MAT" [
-		xlabel="SENSOR_GND_20 18"
+		xlabel="SENSOR_GND_20 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="4"
 		taillabel="20"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "TPS" [
-		xlabel="SENSOR_GND_21 18"
+		xlabel="SENSOR_GND_21 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="3"
 		taillabel="21"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "O2" [
-		xlabel="O2_GND 18"
+		xlabel="O2_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="4"
 		taillabel="22"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"POWER_OUT" -- "FUEL_PUMP" [
-		xlabel="VDD12V_FUEL_PUMP 18"
+		xlabel="VDD12V_FUEL_PUMP 18 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "DASH" [
-		xlabel="VDD12V_DASH 18"
+		xlabel="VDD12V_DASH 18 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="2"
 		taillabel="24"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "DASH" [
-		xlabel="DASH_GND 18"
+		xlabel="DASH_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="1"
 		taillabel="25"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "DASH" [
-		xlabel="DASH_CAN_H 18"
+		xlabel="DASH_CAN_H 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel="3"
 		taillabel="26"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "DASH" [
-		xlabel="DASH_CAN_L 18"
+		xlabel="DASH_CAN_L 18 AWG"
 		fontcolor="Blue"
 		color="Blue"
 		headlabel="4"
 		taillabel="27"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "DASH" [
-		xlabel="ACCEL_LED 18"
-		fontcolor="Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey;0.05"
-		color="Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey:Orange:Grey;0.05"
-		headlabel="5"
-		taillabel="28"
-		penwidth=1.0
-	]
-	"ECU" -- "DASH" [
-		xlabel="WARM_LED 18"
-		fontcolor="Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey;0.05"
-		color="Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey:Pink:Grey;0.05"
-		headlabel="6"
-		taillabel="29"
-		penwidth=1.0
-	]
-	"ECU" -- "DASH" [
-		xlabel="NEUTRAL_LED 18"
-		fontcolor="Grey"
-		color="Grey"
-		headlabel="7"
-		taillabel="30"
-		penwidth=1.0
-	]
-	"ECU" -- "DASH" [
-		xlabel="FLEX 18"
+		xlabel="FLEX 18 AWG"
 		fontcolor="Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey;0.05"
 		color="Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey:Brown:Grey;0.05"
 		headlabel="8"
 		taillabel="31"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"POWER_OUT" -- "L_FAN" [
-		xlabel="VDD12V_L_FAN 18"
+		xlabel="VDD12V_L_FAN 18 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
 		taillabel="4"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"POWER_OUT" -- "R_FAN" [
-		xlabel="VDD12V_R_FAN 18"
+		xlabel="VDD12V_R_FAN 18 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
 		taillabel="3"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "IGN" [
-		xlabel="VDD12V_IGN_INJ 18"
+		xlabel="VDD12V_IGN_INJ 16 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
@@ -290,7 +266,7 @@ graph harness{
 		penwidth=1.0
 	]
 	"ECU" -- "INJ" [
-		xlabel="VDD12V_IGN_INJ_35 18"
+		xlabel="VDD12V_IGN_INJ_35 16 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
@@ -298,231 +274,231 @@ graph harness{
 		penwidth=1.0
 	]
 	"POWER_IN" -- "RELAY_STG2" [
-		xlabel="VDD12V_STG2 18"
+		xlabel="VDD12V_STG2 14 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=1.5
 	]
 	"POWER_IN" -- "RELAY_STG2" [
-		xlabel="VDD12V_STG1 18"
+		xlabel="VDD12V_STG1 14 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="2"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=1.5
 	]
 	"POWER_IN" -- "BRAKE_OVER_TRAVEL" [
-		xlabel="VDD12V_STG1_39 18"
+		xlabel="VDD12V_STG1_39 14 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=1.5
 	]
 	"BRAKE_OVER_TRAVEL" -- "DRIVER_KILL" [
-		xlabel="BRAKE_KILL 18"
+		xlabel="BRAKE_KILL 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"DRIVER_KILL" -- "RELAY_STG2" [
-		xlabel="KILL_RELAY 18"
+		xlabel="KILL_RELAY 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="4"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"POWER_IN" -- "STARTER_RELAY" [
-		xlabel="POWER_STARTER 18"
+		xlabel="POWER_STARTER 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="2"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"POWER_IN" -- "IGNITION_SWITCH" [
-		xlabel="POWER_IGNITION 18"
+		xlabel="POWER_IGNITION 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"IGNITION_SWITCH" -- "STARTER_RELAY" [
-		xlabel="IGNITION_STARTER 18"
+		xlabel="IGNITION_STARTER 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="4"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"STARTER_RELAY" -- "STARTER" [
-		xlabel="RELAY_STARTER 18"
+		xlabel="RELAY_STARTER 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="1"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"STARTER_RELAY" -- "GND" [
-		xlabel="RELAY_GND 18"
+		xlabel="RELAY_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="1"
 		taillabel="3"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"STARTER" -- "GND" [
-		xlabel="STARTER_GND 18"
+		xlabel="STARTER_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"POWER_IN" -- "MASTER_KILL" [
-		xlabel="POWER_KILL 18"
+		xlabel="POWER_KILL 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"MASTER_KILL" -- "BATTERY" [
-		xlabel="KILL_BATTERY 18"
+		xlabel="KILL_BATTERY 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"BATTERY" -- "GND" [
-		xlabel="BATTERY_GND 18"
+		xlabel="BATTERY_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="1"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ENGINE" -- "RECTIFIER" [
-		xlabel="RECTIFIER_RELAY_CONTROL_HIGH 18"
+		xlabel="RECTIFIER_RELAY_CONTROL_HIGH 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="3"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"RECTIFIER" -- "GND" [
-		xlabel="RECTIFIER_GND 18"
+		xlabel="RECTIFIER_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="1"
 		taillabel="4"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"RECTIFIER" -- "3_PHASE_RECTIFIER" [
-		xlabel="RECTIFIER_PHASE 18"
+		xlabel="RECTIFIER_PHASE 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="5"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"3_PHASE_RECTIFIER" -- "STATOR" [
-		xlabel="PHASE_STATOR_1 18"
+		xlabel="PHASE_STATOR_1 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="1"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"3_PHASE_RECTIFIER" -- "STATOR" [
-		xlabel="PHASE_STATOR_2 18"
+		xlabel="PHASE_STATOR_2 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="2"
 		taillabel="2"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"3_PHASE_RECTIFIER" -- "STATOR" [
-		xlabel="PHASE_STATOR_3 18"
+		xlabel="PHASE_STATOR_3 18 AWG"
 		fontcolor="Goldenrod1"
 		color="Goldenrod1"
 		headlabel="3"
 		taillabel="3"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"3_PHASE_RECTIFIER" -- "GND" [
-		xlabel="PHASE_GND 18"
+		xlabel="PHASE_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="1"
 		taillabel="4"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"POWER_IN" -- "GND" [
-		xlabel="POWER_GND 18"
+		xlabel="POWER_GND 14 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="1"
 		taillabel="4"
-		penwidth=1.0
+		penwidth=1.5
 	]
 	"GND" -- "IGN" [
-		xlabel="IGN_GND 18"
+		xlabel="IGN_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="5"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"GND" -- "FUEL_PUMP" [
-		xlabel="PUMP_GND 18"
+		xlabel="PUMP_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="2"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"GND" -- "L_FAN" [
-		xlabel="L_GND 18"
+		xlabel="L_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="2"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"GND" -- "R_FAN" [
-		xlabel="R_GND 18"
+		xlabel="R_GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel="2"
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"BRAKE_OVER_TRAVEL" -- "BRAKE_LIGHT" [
-		xlabel="BRAKE_OVER_TRAVEL-BRAKE_LIGHT 2"
+		xlabel="BRAKE_OVER_TRAVEL-BRAKE_LIGHT 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel=""
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"3_PHASE_RECTIFIER" -- "BATTERY" [
-		xlabel="RECTIFIER-SUPPLY 16"
+		xlabel="RECTIFIER-SUPPLY 16 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel=""
 		taillabel=""
-		penwidth=1.5
+		penwidth=1.0
 	]
 	"MAP_MAT" -- "IGN" [
-		xlabel="IGN-CYL_GND 22"
+		xlabel="IGN-CYL_GND 22 AWG"
 		fontcolor="Blue"
 		color="Blue"
 		headlabel=""
@@ -530,43 +506,43 @@ graph harness{
 		penwidth=0.25
 	]
 	"SERIAL" -- "ECU" [
-		xlabel="SERIAL_TX 2"
+		xlabel="SERIAL_TX 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel=""
 		taillabel="1"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"ECU" -- "SERIAL" [
-		xlabel="SERIAL_RX 2"
+		xlabel="SERIAL_RX 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel=""
 		taillabel="33"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"SERIAL" -- "ECU" [
-		xlabel="SERIAL_GND 2"
+		xlabel="SERIAL_GND 18 AWG"
 		fontcolor="Grey"
 		color="Grey"
 		headlabel="34"
 		taillabel="3"
-		penwidth=1.0
+		penwidth=0.75
 	]
 	"BRAKE_TRANSDUCER" -- "BRAKE_LIGHT" [
-		xlabel="BRAKE_TRANSDUCER_TO_BRAKE_LIGHT 16"
+		xlabel="BRAKE_TRANSDUCER_TO_BRAKE_LIGHT 18 AWG"
 		fontcolor="Red"
 		color="Red"
 		headlabel=""
 		taillabel=""
-		penwidth=1.5
+		penwidth=0.75
 	]
 	"TRANSP" -- "GND" [
-		xlabel="BRAKE_TRANSPONDER-GND 2.5"
+		xlabel="BRAKE_TRANSPONDER-GND 18 AWG"
 		fontcolor="Black"
 		color="Black"
 		headlabel=""
 		taillabel=""
-		penwidth=1.0
+		penwidth=0.75
 	]
 }

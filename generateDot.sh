@@ -37,7 +37,8 @@ IN=/dev/stdin
 OUT=/dev/stdout
 ERR=/dev/stderr
 parseCmd $@
-echo -e "graph harness{
+echo -e "\
+graph harness{
 	graph [
 		layout=dot
 		rankdir=TB
@@ -70,8 +71,9 @@ do
 	case $GAUGE in
 		22)WIDTH="0.25";;
 		20)WIDTH="0.5";;
-		18)WIDTH="1.0";;
-		16)WIDTH="1.5";;
+		18)WIDTH="0.75";;
+		16)WIDTH="1.0";;
+		14)WIDTH="1.5";;
 	esac
 	FROM=$(echo $line | cut -d, -f4)
 	FROMPIN=$(echo $line | cut -d, -f5)
@@ -79,7 +81,7 @@ do
 	TOPIN=$(echo $line | cut -d, -f7)
 	#echo -e $NAME\\n$FROM-\>$TO\\n$COLOR
 	echo -e "\t\"$FROM\" -- \"$TO\" [
-		xlabel=\"$NAME $GAUGE\"
+		xlabel=\"$NAME $GAUGE AWG\"
 		fontcolor=\"$COLOR\"
 		color=\"$COLOR\"
 		headlabel=\"$TOPIN\"
